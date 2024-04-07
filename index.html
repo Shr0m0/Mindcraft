@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/letter-m.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Mindcraft</title>
+
+</head>
+
+<body>
+
+
+
+    <nav class="bg-white border-gray-200 dark:bg-gray-900 sticky top-0 z-50" id="">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="" class="flex items-center space-x-3 rtl:space-x-reverse">
+                
+                <img src="images/letter-m.png" class="h-8" alt="Mindcraft Logo" />
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Mindcraft</span>
+            </a>
+            <button data-collapse-toggle="navbar-default" type="button"
+                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M1 1h15M1 7h15M1 13h15" />
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <ul
+                    class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <li>
+                        <a href="#hero"
+                            class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                            aria-current="page">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about"
+                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+                    </li>
+                    <li>
+                        <a href="#services"
+                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+                    </li>
+                    <li>
+                        <a href="#news"
+                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Blog</a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a href="#contact"
+                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#login"
+                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Login</a>
+                    </li>
+                    <li>
+                        <a href="#signup"
+                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Signup</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!----- Hero section-->
+    <!-- <section class="bg-white dark:bg-gray-900" id="hero"> -->
+      <section class="hero">
+        <!-- <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+            <div class="mr-auto place-self-center lg:col-span-7"> -->
+        <div class="hero-inner">
+                <h1
+                    class="max-w-4xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
+                    Infinite Ideas, Infinite Celebrations: Crafting Moments</h1>
+                <!-- <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">From
+                    checkout to global sales tax compliance, companies around the world use Mindcraft to simplify their
+                    payment stack.</p> -->
+                    
+                <a href="#"
+                
+                    class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
+                    Get started
+                    
+                    <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </a>
+                <a href="#"
+                    class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+                    Speak to Sales
+                </a>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Latest News -->
+    <section class:latest>
+    <h1 class='text-center text-3xl mt-5 font-bold'>Latest</h1>
+
+    <div class="grid md:grid-cols-3 p-10 px-20 gap-6">
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+                <img class="rounded-t-lg"
+                    src="images/birt.jpg"
+                    alt="" />
+            </a>
+            <div class="p-5">
+                <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Birthday party of Helmi</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here is how we organized our latest birthday party</p>
+                <a href="#"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    Read more
+                    <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M1 5h12m0 0L9 1m4 4L9 9" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+
+
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+                <img class="rounded-t-lg" src="images/wedd.jpg" alt="" />
+            </a>
+            <div class="p-5">
+                <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Wedding of Rihab & Anju</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here is how we organized our latest wedding. </p>
+                <a href="#"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    Read more
+                    <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M1 5h12m0 0L9 1m4 4L9 9" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+
+
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+                <img class="rounded-t-lg" src="images/conf.jpg" alt="" />
+            </a>
+            <div class="p-5">
+                <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Conference at University</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here is how we organized a conference at the university.</p>
+                <a href="#"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    Read more
+                    <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M1 5h12m0 0L9 1m4 4L9 9" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+    </div>
+    </section>
+
+
+
+    <!--another news-->
+
+
+
+
+
+
+
+    <!--gllary-->
+    <div class='mt-5 md:px-20 p-10 ' id="about">
+    <div class='mt-5 md:px-20 p-10'>
+        <h1 class='text-center text-3xl mt-5 font-bold'>WHO WE ARE</h1>
+        <p class='mt-5'>With a perfect blend of experience and passion, Mindcraft is an event management company in Oulu. We’ve emerged as a company with ideas to turn your corporate or personal event into something worth remembering. With the help of our creative team, we provide our services to most types of corporate events including, but not limited to, seminars, conferences, trade shows, cultural events, company or organization milestones, exhibitions, product launches, concerts, company annual meetings, corporate picnics, fashion shows and appreciation events. We will also strive to make your wedding events, birthday events and other personal events unforgettable. Oulu, the capital of northern Finland has become a wonder for quite a few people with its rapid economic growth in the last 10 years or so. Companies, organizations and various businesses have become the driving force for the economic development of this country. Both corporate and personal event management services in Oulu are becoming more and more common. We at Mindcraft believe that it's our responsibility as an event management company to deliver our services to our clients with reliability, dependability and creativity. We want you to remember the events that we get to manage for you, We thrive to mix and match the best styles and themes for your events. With so many events happening in Oulu, we believe that it’s very important that you stand out with your events as our client. An event itself is an opportunity to display your creation positively and inspire people to take positive actions. Mindcraft helps you achieve your event’s desired objectives and a little bit extra to make it an immersive experience for all the attendees. We start by learning who you are and what your objectives are for the event. This enables us to tailor your event for the best experience of all parties involved.</p>
+    </div>
+    </div>
+
+
+
+    <div>
+        <div class="container mx-auto px-5 py-2 lg:px-32 lg:pt-24">
+            <div class="-m-1 flex flex-wrap md:-m-2">
+                <div class="flex w-1/2 flex-wrap">
+                    <div class="w-1/2 p-1 md:p-2">
+                        <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
+                            src="images/11.jpg" />
+                    </div>
+                    <div class="w-1/2 p-1 md:p-2">
+                        <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
+                            src="images/12.jpg" />
+                    </div>
+                    <div class="w-full p-1 md:p-2">
+                        <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
+                            src="images/13.jpg" />
+                    </div>
+                </div>
+                <div class="flex w-1/2 flex-wrap">
+                    <div class="w-full p-1 md:p-2">
+                        <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
+                            src="images/14.jpg" />
+                    </div>
+                    <div class="w-1/2 p-1 md:p-2">
+                        <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
+                            src="images/15.jpg" />
+                    </div>
+                    <div class="w-1/2 p-1 md:p-2">
+                        <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
+                            src="images/16.jpg" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--Services-->
+    <div class="flex justify-center" id="services">
+        <div class="text-center md:max-w-xl lg:max-w-3xl">
+            <h2 class="mb-6 mt-6 px-6 text-3xl font-bold">Services</h2>
+        </div>
+    </div>
+
+ 
+
+
+
+    <section class="cards px-20 gap-4 mb-5">
+                    
+ 
+
+        <article class="card">
+            
+       
+        <img width="240" height="240" src="https://dhakaeventplanner.com/wp-content/uploads/2019/05/Event-Compnay-for-arraning-concert.jpg" class="attachment-facility size-facility" alt="" title="" decoding="async" fetchpriority="high" srcset="https://dhakaeventplanner.com/wp-content/uploads/2019/05/Event-Compnay-for-arraning-concert.jpg 240w, https://dhakaeventplanner.com/wp-content/uploads/2019/05/Event-Compnay-for-arraning-concert-150x150.jpg 150w, https://dhakaeventplanner.com/wp-content/uploads/2019/05/Event-Compnay-for-arraning-concert-71x71.jpg 71w" sizes="(max-width: 240px) 100vw, 240px">                    
+      
+        <h2>Conference</h2>
+    </article> 
+    
+    <article class="card">
+    
+        <img width="240" height="240" src="https://dhakaeventplanner.com/wp-content/uploads/2019/05/Exhibition-Event-management-compnay-in-Dhaka.jpg" class="attachment-facility size-facility" alt="" title="" decoding="async" srcset="https://dhakaeventplanner.com/wp-content/uploads/2019/05/Exhibition-Event-management-compnay-in-Dhaka.jpg 240w, https://dhakaeventplanner.com/wp-content/uploads/2019/05/Exhibition-Event-management-compnay-in-Dhaka-150x150.jpg 150w, https://dhakaeventplanner.com/wp-content/uploads/2019/05/Exhibition-Event-management-compnay-in-Dhaka-71x71.jpg 71w" sizes="(max-width: 240px) 100vw, 240px">                    
+
+          <h2>Exhibitions</h2>
+      
+    </article>
+
+    <article class="card">
+                    
+        <img width="240" height="240" src="https://dhakaeventplanner.com/wp-content/uploads/2019/05/product-launch-event-management-company-dhaka.jpg" class="attachment-facility size-facility" alt="" title="" decoding="async" srcset="https://dhakaeventplanner.com/wp-content/uploads/2019/05/product-launch-event-management-company-dhaka.jpg 240w, https://dhakaeventplanner.com/wp-content/uploads/2019/05/product-launch-event-management-company-dhaka-150x150.jpg 150w, https://dhakaeventplanner.com/wp-content/uploads/2019/05/product-launch-event-management-company-dhaka-71x71.jpg 71w" sizes="(max-width: 240px) 100vw, 240px">  
+
+        <h2>Product Launch</h2>
+       
+    </article>
+
+
+
+    <article class="card">
+                    
+        <img width="240" height="240" src="https://dhakaeventplanner.com/wp-content/uploads/2019/05/artist-management-company-Bangladesh.jpg" class="attachment-facility size-facility" alt="" title="" decoding="async" srcset="https://dhakaeventplanner.com/wp-content/uploads/2019/05/artist-management-company-Bangladesh.jpg 240w, https://dhakaeventplanner.com/wp-content/uploads/2019/05/artist-management-company-Bangladesh-150x150.jpg 150w, https://dhakaeventplanner.com/wp-content/uploads/2019/05/artist-management-company-Bangladesh-71x71.jpg 71w" sizes="(max-width: 240px) 100vw, 240px"> 
+
+        <h2>Artist Management</h2>
+      
+    </article>
+
+    </section>
+
+    <section class="cards px-20 gap-4 mb-5">
+
+    <article class="card">
+                    
+        <img width="240" height="240" src="https://dhakaeventplanner.com/wp-content/uploads/2019/05/Concert-Management-company-Dhaka-240x240.jpg" class="attachment-facility size-facility" alt="" title="" decoding="async" srcset="https://dhakaeventplanner.com/wp-content/uploads/2019/05/Concert-Management-company-Dhaka-240x240.jpg 240w, https://dhakaeventplanner.com/wp-content/uploads/2019/05/Concert-Management-company-Dhaka-150x150.jpg 150w, https://dhakaeventplanner.com/wp-content/uploads/2019/05/Concert-Management-company-Dhaka-71x71.jpg 71w" sizes="(max-width: 240px) 100vw, 240px"> 
+
+        <h2>Concert</h2>
+      
+    </article>
+
+    <article class="card">
+                    
+        <img width="240" height="240" src="https://dhakaeventplanner.com/wp-content/uploads/2019/05/fashion-show-event-management-company-dhaka-240x240.jpg" class="attachment-facility size-facility" alt="" title="" decoding="async" srcset="https://dhakaeventplanner.com/wp-content/uploads/2019/05/fashion-show-event-management-company-dhaka-240x240.jpg 240w, https://dhakaeventplanner.com/wp-content/uploads/2019/05/fashion-show-event-management-company-dhaka-150x150.jpg 150w, https://dhakaeventplanner.com/wp-content/uploads/2019/05/fashion-show-event-management-company-dhaka-71x71.jpg 71w" sizes="(max-width: 240px) 100vw, 240px">   
+
+        <h2>Fashion Show</h2>
+    </article>
+    
+    
+    <article class="card">
+                    
+        <img width="240" height="240" src="https://dhakaeventplanner.com/wp-content/uploads/2019/05/wedding-planner-dhaka.jpg" class="attachment-facility size-facility" alt="" title="" decoding="async" srcset="https://dhakaeventplanner.com/wp-content/uploads/2019/05/wedding-planner-dhaka.jpg 240w, https://dhakaeventplanner.com/wp-content/uploads/2019/05/wedding-planner-dhaka-150x150.jpg 150w, https://dhakaeventplanner.com/wp-content/uploads/2019/05/wedding-planner-dhaka-71x71.jpg 71w" sizes="(max-width: 240px) 100vw, 240px"> 
+
+        <h2>Weddings</h2>
+    </article>
+
+    <article class="card">
+                    
+        <img width="240" height="240" src="https://dhakaeventplanner.com/wp-content/uploads/2019/05/birthday-planner-dhaka.jpg" class="attachment-facility size-facility" alt="" title="" decoding="async" srcset="https://dhakaeventplanner.com/wp-content/uploads/2019/05/birthday-planner-dhaka.jpg 240w, https://dhakaeventplanner.com/wp-content/uploads/2019/05/birthday-planner-dhaka-150x150.jpg 150w, https://dhakaeventplanner.com/wp-content/uploads/2019/05/birthday-planner-dhaka-71x71.jpg 71w" sizes="(max-width: 240px) 100vw, 240px">    
+
+        <h2>Birthday Event</h2>
+      
+    </article> 
+      
+    </section>      
+
+
+
+
+
+    <!-- blogs -->
+
+    <div class='mt-5 md:px-20 p-10 ' id="news">
+        <h1 class='text-center text-3xl mt-5 font-bold'>Blogs</h1>
+        
+    </div>
+
+    <div class="grid md:grid-cols-2 p-3  gap-8 px-20">
+        <div class="grid md:grid-cols-2  gap-6  ">
+
+
+            <div
+                class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <a href="#">
+                    <img class="rounded-t-lg" src="images/luwadlin-bosman-P_HRPYpFTNA-unsplash.jpg" alt="" />
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Wedding event planning</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">If you ask, most couples will say the most important day of their lives is their wedding day.</p>
+                        <a href="#" class="inline-flex items-center font-medium underline underline-offset-4 text-primary-600 dark:text-primary-500 hover:no-underline">
+                            Read in 2 minutes
+                        </a>
+                </div>
+            </div>
+
+            <div
+                class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <a href="#">
+                    <img class="rounded-t-lg" src="images/brooke-cagle-g1Kr4Ozfoac-unsplash.jpg" alt="" />
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">What happens in the background?</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here is how our team works with the goal of making the best event possible for you. We plan the events according to your desire. </p>
+                        <a href="#" class="inline-flex items-center font-medium underline underline-offset-4 text-primary-600 dark:text-primary-500 hover:no-underline">
+                            Read in 2 minutes
+                        </a>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div>
+            <div class="">
+                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <article class="max-w-xs grid md:grid-cols-2 gap-3">
+
+                        <div>
+                        <a href="#">
+                            <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/article/blog-1.png" class="mb-5 rounded-lg" alt="Image 1" />
+                        </a>
+
+                        </div>
+                       
+                       <div>
+                       <h2 class="mb-2 text-xl font-bold leading-tight text-gray-900 dark:text-white">
+                            <a href="#">Our first office</a>
+                        </h2>
+                        <p class="mb-4 text-gray-500 dark:text-gray-400">Over the past year, Mindcraft has undergone...</p>
+                        <a href="#" class="inline-flex items-center font-medium underline underline-offset-4 text-primary-600 dark:text-primary-500 hover:no-underline">
+                            Read in 2 minutes
+                        </a>
+                       </div>
+                    </article>
+
+                    
+                    <article class="max-w-xs grid md:grid-cols-2 gap-3">
+
+                        <div>
+                        <a href="#">
+                            <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/article/blog-1.png" class="mb-5 rounded-lg" alt="Image 1" />
+                        </a>
+
+                        </div>
+                       
+                       <div>
+                       <h2 class="mb-2 text-xl font-bold leading-tight text-gray-900 dark:text-white">
+                            <a href="#">Our first office</a>
+                        </h2>
+                        <p class="mb-4 text-gray-500 dark:text-gray-400">Over the past year, Mindcraft has undergone...</p>
+                        <a href="#" class="inline-flex items-center font-medium underline underline-offset-4 text-primary-600 dark:text-primary-500 hover:no-underline">
+                            Read in 2 minutes
+                        </a>
+                       </div>
+                    </article>
+
+
+                    <article class="max-w-xs grid md:grid-cols-2 gap-3">
+
+                        <div>
+                        <a href="#">
+                            <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/article/blog-1.png" class="mb-5 rounded-lg" alt="Image 1" />
+                        </a>
+
+                        </div>
+                       
+                       <div>
+                       <h2 class="mb-2 text-xl font-bold leading-tight text-gray-900 dark:text-white">
+                            <a href="#">Our first office</a>
+                        </h2>
+                        <p class="mb-4 text-gray-500 dark:text-gray-400">Over the past year, Mindcraft has undergone...</p>
+                        <a href="#" class="inline-flex items-center font-medium underline underline-offset-4 text-primary-600 dark:text-primary-500 hover:no-underline">
+                            Read in 2 minutes
+                        </a>
+                       </div>
+                    </article>
+                
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+             
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--About -->
+    <section class="bg-white dark:bg-gray-900 " id="about">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
+            <div class="mx-auto mb-8 max-w-screen-sm lg:mb-16">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Our team</h2>
+                <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400">"Our effort goes towards you having successful events"</p>
+            </div> 
+            <div class="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+                <div class="text-center text-gray-500 dark:text-gray-400">
+                    <img class="mx-auto mb-4 w-36 h-36 rounded-full" src="images/sro.jpeg" alt="sro Avatar">
+                    <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                        <a href="#">Shromona Islam</a>
+                    </h3>
+                    <p>CEO/Co-founder</p>
+                    <ul class="flex justify-center mt-4 space-x-4">
+                        <li>
+                            <a href="#" class="text-[#39569c] hover:text-gray-900 dark:hover:text-white">
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-[#00acee] hover:text-gray-900 dark:hover:text-white">
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" /></svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-900 hover:text-gray-900 dark:hover:text-white dark:text-gray-300">
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd" /></svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-[#ea4c89] hover:text-gray-900 dark:hover:text-white">
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z" clip-rule="evenodd" /></svg>
+                            </a> 
+                        </li> 
+                    </ul>
+                </div>
+                <div class="text-center text-gray-500 dark:text-gray-400">
+                    <img class="mx-auto mb-4 w-36 h-36 rounded-full" src="images/lab.jpeg" alt="lab Avatar">
+                    <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                        <a href="#">Masrur Hasan</a>
+                    </h3>
+                    <p>Co-founder</p>
+                    <ul class="flex justify-center mt-4 space-x-4">
+                        <li>
+                            <a href="#" class="text-[#39569c] hover:text-gray-900 dark:hover:text-white">
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-[#00acee] hover:text-gray-900 dark:hover:text-white">
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" /></svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-900 hover:text-gray-900 dark:hover:text-white dark:text-gray-300">
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd" /></svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-[#ea4c89] hover:text-gray-900 dark:hover:text-white">
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z" clip-rule="evenodd" /></svg>
+                            </a> 
+                        </li> 
+                    </ul>
+                </div>
+                <div class="text-center text-gray-500 dark:text-gray-400">
+                    <img class="mx-auto mb-4 w-36 h-36 rounded-full" src="images/ria.jpg" alt="ria Avatar">
+                    <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                        <a href="#">Ainun Nahar Riya</a>
+                    </h3>
+                    <p>SEO & Marketing</p>
+                    <ul class="flex justify-center mt-4 space-x-4">
+                        <li>
+                            <a href="#" class="text-[#39569c] hover:text-gray-900 dark:hover:text-white">
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-[#00acee] hover:text-gray-900 dark:hover:text-white">
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" /></svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-900 hover:text-gray-900 dark:hover:text-white dark:text-gray-300">
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd" /></svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-[#ea4c89] hover:text-gray-900 dark:hover:text-white">
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z" clip-rule="evenodd" /></svg>
+                            </a> 
+                        </li> 
+                    </ul>
+                </div>
+                <div class="text-center text-gray-500 dark:text-gray-400">
+                    <img class="mx-auto mb-4 w-36 h-36 rounded-full" src="images/ton.jpg" alt="ton Avatar">
+                    <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                        <a href="#">Tonmoy Kabir</a>
+                    </h3>
+                    <p>Sales</p>
+                    <ul class="flex justify-center mt-4 space-x-4">
+                        <li>
+                            <a href="#" class="text-[#39569c] hover:text-gray-900 dark:hover:text-white">
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-[#00acee] hover:text-gray-900 dark:hover:text-white">
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" /></svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-900 hover:text-gray-900 dark:hover:text-white dark:text-gray-300">
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd" /></svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-[#ea4c89] hover:text-gray-900 dark:hover:text-white">
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z" clip-rule="evenodd" /></svg>
+                            </a> 
+                        </li> 
+                    </ul>
+                </div>
+        
+           
+             
+                
+            </div>  
+        </div>
+      </section>
+
+
+
+
+
+    <!--contact-->
+    <div class='mt-5 md:px-20 p-10 ' id="contact">
+    <div class="container my-24 mx-auto md:px-6">
+        <!-- Section: Design Block -->
+        <section class="mb-32">
+          <div class="flex justify-center">
+            <div class="text-center md:max-w-xl lg:max-w-3xl">
+              <h2 class="mb-12 px-6 text-3xl font-bold">Contact us</h2>
+            </div>
+          </div>
+          
+      
+          
+            <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
+              <div class="flex flex-wrap">
+                <div class="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:px-6">
+                  <div class="flex items-start">
+                    <div class="shrink-0">
+                      <div class="inline-block rounded-md bg-primary-100 p-4 text-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                          stroke="currentColor" class="h-6 w-6">
+                          <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M14.25 9.75v-4.5m0 4.5h4.5m-4.5 0l6-6m-3 18c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 014.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.054.902-.417 1.173l-1.293.97a1.062 1.062 0 00-.38 1.21 12.035 12.035 0 007.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 011.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 01-2.25 2.25h-2.25z" />
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="ml-6 grow">
+                      <p class="mb-2 font-bold dark:text-black-400">
+                        Technical support
+                      </p>
+                      <p class="text-neutral-500 dark:text-grey-200">
+                        support@example.com
+                      </p>
+                      <p class="text-neutral-500 dark:text-grey-200">
+                        +1 234-567-89
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:px-6">
+                  <div class="flex items-start">
+                    <div class="shrink-0">
+                      <div class="inline-block rounded-md bg-primary-100 p-4 text-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                          stroke="currentColor" class="h-6 w-6">
+                          <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0zm3 0h.008v.008H18V10.5zm-12 0h.008v.008H6V10.5z" />
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="ml-6 grow">
+                      <p class="mb-2 font-bold dark:text-black-400">
+                        Sales questions
+                      </p>
+                      <p class="text-neutral-500 dark:text-grey-200">
+                        sales@example.com
+                      </p>
+                      <p class="text-neutral-500 dark:text-grey-200">
+                        +1 234-567-89
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:px-6">
+                  <div class="align-start flex">
+                    <div class="shrink-0">
+                      <div class="inline-block rounded-md bg-primary-100 p-4 text-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                          stroke="currentColor" class="h-6 w-6">
+                          <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M12 7.5h1.5m-1.5 3h1.5m-7.5 3h7.5m-7.5 3h7.5m3-9h3.375c.621 0 1.125.504 1.125 1.125V18a2.25 2.25 0 01-2.25 2.25M16.5 7.5V18a2.25 2.25 0 002.25 2.25M16.5 7.5V4.875c0-.621-.504-1.125-1.125-1.125H4.125C3.504 3.75 3 4.254 3 4.875V18a2.25 2.25 0 002.25 2.25h13.5M6 7.5h3v3H6v-3z" />
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="ml-6 grow">
+                      <p class="mb-2 font-bold dark:text-black-400">Press</p>
+                      <p class="text-neutral-500 dark:text-grey-200">
+                        press@example.com
+                      </p>
+                      <p class="text-neutral-500 dark:text-grey-200">
+                        +1 234-567-89
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:px-6">
+                  <div class="align-start flex">
+                    <div class="shrink-0">
+                      <div class="inline-block rounded-md bg-primary-100 p-4 text-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                          stroke="currentColor" class="h-6 w-6">
+                          <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M12 12.75c1.148 0 2.278.08 3.383.237 1.037.146 1.866.966 1.866 2.013 0 3.728-2.35 6.75-5.25 6.75S6.75 18.728 6.75 15c0-1.046.83-1.867 1.866-2.013A24.204 24.204 0 0112 12.75zm0 0c2.883 0 5.647.508 8.207 1.44a23.91 23.91 0 01-1.152 6.06M12 12.75c-2.883 0-5.647.508-8.208 1.44.125 2.104.52 4.136 1.153 6.06M12 12.75a2.25 2.25 0 002.248-2.354M12 12.75a2.25 2.25 0 01-2.248-2.354M12 8.25c.995 0 1.971-.08 2.922-.236.403-.066.74-.358.795-.762a3.778 3.778 0 00-.399-2.25M12 8.25c-.995 0-1.97-.08-2.922-.236-.402-.066-.74-.358-.795-.762a3.734 3.734 0 01.4-2.253M12 8.25a2.25 2.25 0 00-2.248 2.146M12 8.25a2.25 2.25 0 012.248 2.146M8.683 5a6.032 6.032 0 01-1.155-1.002c.07-.63.27-1.222.574-1.747m.581 2.749A3.75 3.75 0 0115.318 5m0 0c.427-.283.815-.62 1.155-.999a4.471 4.471 0 00-.575-1.752M4.921 6a24.048 24.048 0 00-.392 3.314c1.668.546 3.416.914 5.223 1.082M19.08 6c.205 1.08.337 2.187.392 3.314a23.882 23.882 0 01-5.223 1.082" />
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="ml-6 grow">
+                      <p class="mb-2 font-bold dark:text-black-400">Bug report</p>
+                      <p class="text-neutral-500 dark:text-grey-200">
+                        bugs@example.com
+                      </p>
+                      <p class="text-neutral-500 dark:text-grey-200">
+                        +1 234-567-89
+                      </p>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--footer-->
+    <footer class="bg-gray-100">
+        <div class="mx-auto max-w-screen-xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
+            <div class="sm:flex sm:items-center sm:justify-between">
+                <div class="text-teal-600">
+                  
+                    <h1 class=" text-2xl font-bold">Mindcraft </h1>
+                </div>
+
+                <ul class="mt-8 flex justify-start gap-6 sm:mt-0 sm:justify-end">
+                    <li>
+                        <a href="#" rel="noreferrer" target="_blank" class="text-gray-700 transition hover:opacity-75">
+                            <span class="sr-only">Facebook</span>
+
+                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill-rule="evenodd"
+                                    d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" rel="noreferrer" target="_blank" class="text-gray-700 transition hover:opacity-75">
+                            <span class="sr-only">Instagram</span>
+
+                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill-rule="evenodd"
+                                    d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" rel="noreferrer" target="_blank" class="text-gray-700 transition hover:opacity-75">
+                            <span class="sr-only">Twitter</span>
+
+                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path
+                                    d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
+                            </svg>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" rel="noreferrer" target="_blank" class="text-gray-700 transition hover:opacity-75">
+                            <span class="sr-only">GitHub</span>
+
+                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill-rule="evenodd"
+                                    d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" rel="noreferrer" target="_blank" class="text-gray-700 transition hover:opacity-75">
+                            <span class="sr-only">Dribbble</span>
+
+                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill-rule="evenodd"
+                                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            
+
+            <p class="text-xs text-gray-500">&copy; 2024. Mindcraft . All rights reserved.</p>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
